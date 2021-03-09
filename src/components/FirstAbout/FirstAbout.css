@@ -1,0 +1,41 @@
+.first-about-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Roboto';
+
+    background: #fafafa;
+}
+.first-about{
+    display: grid;
+
+    width: 40%;
+    margin: auto auto auto auto;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.first-about h1{
+    font-size: 38px;
+
+    font-weight: bold;
+    margin-right: 20px;
+
+    text-decoration: none;
+    color: black;
+}
+.first-about p{
+    margin-top: 10px;
+}
+.first-about p:last-child{
+    margin-top: 20px;
+}
