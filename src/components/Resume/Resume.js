@@ -12,13 +12,30 @@ const Resume = () => {
     return(
         <div className='resume-container'>
             <div className='resume' data-aos="fade-right">
-                <h1>Currículo</h1>
+                <div className='resume-text'>
+                    <h1>Currículo</h1>
 
-                <h2>Experiências de trabalho</h2>
+                    <h2>Experiências de trabalho</h2>
 
-                <p>Twitch</p>
-                <p>Streamer diário todos os dias da 8 ao 12 da manhã</p>
+                    <p>Twitch.tv/hik3lost</p>
+                    <p>Streamer diário todos os dias da 8 ao 12 da manhã</p>
 
+                    <h2>Twitch</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+
+                </div>
+                <div className='resume-last-text'>
+                    <h1>Currículo</h1>
+
+                    <h2>Experiências de trabalho</h2>
+
+                    <p>Twitch.tv/hik3lost</p>
+                    <p>Streamer diário todos os dias da 8 ao 12 da manhã</p>
+
+                    <h2>Twitch</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+
+                </div>
             </div>
         </div>
     );

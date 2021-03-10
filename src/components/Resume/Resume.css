@@ -9,23 +9,42 @@
 
     font-family: 'Roboto';
 }
+.text-h1{
+    width: 40%;
+}
 .resume{
-    width: 100%;
+    width: 60%;
 
-    display: grid;
+    display: flex;
     margin: auto;
 
     justify-content: center;
     text-align: center;
     align-items: center;
 }
-.resume h1{
-    font-size: 48px;
+.resume-text{
+    display: grid;
+    margin: auto 5% auto auto;
 
-    text-align: start;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
 }
-.resume h2{
-    font-size: 20px;
+.resume-text h1,
+.resume-last-text h1{
+    margin-bottom: 20px;
+}
 
-    text-align: start;
+.resume-last-text p:nth-child(1),
+.resume-text p:nth-child(0){
+    margin-bottom: 20px;
+}
+
+.resume-last-text{
+    display: grid;
+    margin: auto auto auto 5%;
+
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
 }
