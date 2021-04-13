@@ -10,7 +10,7 @@ const Resume = () => {
     }, []);
 
     return(
-        <div className='resume-container'>
+        <div className='resume-container' id="resume">
             <div className='resume' data-aos="fade-right">
                 <div className='resume-text'>
                     <h1>Currículo</h1>

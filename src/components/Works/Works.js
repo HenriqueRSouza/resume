@@ -12,7 +12,7 @@ const Works = () => {
     }, []);
 
     return(
-        <div className="works-container">
+        <div className="works-container" id="works">
             <div className='works'>
                 <div className="works-cards">
                     <h1 data-aos="fade-right" id='text'>Meus Trabalhos</h1>

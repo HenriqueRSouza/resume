@@ -11,7 +11,7 @@ const Footer = () => {
     }, []);
 
     return(
-        <div className='footer-container'>
+        <div className='footer-container' id="footer">
             <div className='footer' >
                 <h1>Henrique Ribeiro</h1>
                 <small className='website-rights'>Henrique © 2020</small>

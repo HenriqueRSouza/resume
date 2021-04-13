@@ -3,7 +3,6 @@ import './Cards.css'
 
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import { Link } from 'react-router-dom';
 
 const Cards = () => {
     useEffect(() => {
@@ -19,7 +18,7 @@ const Cards = () => {
                         <div className="conteudo">
                             <p className="nome-secao">Musicas</p>
                             <p className="descricao">Melhores musicas</p>
-                            <a href="" className="btn-more">Ver mais</a>
+                            {/* <a href="" className="btn-more">Ver mais</a> */}
                         </div>
 			        </li>
                     <li data-aos="fade-left"> 
@@ -27,7 +26,7 @@ const Cards = () => {
                         <div className="conteudo">
                             <p className="nome-secao">Imagens</p>
                             <p className="descricao">Melhores imagens</p>
-                            <a href="" className="btn-more">Ver mais</a>
+                            {/* <a href="" className="btn-more">Ver mais</a> */}
                         </div>
                     </li >
                     <li data-aos="fade-right">
@@ -35,7 +34,7 @@ const Cards = () => {
                         <div className="conteudo">
                             <p className="nome-secao">Aplicativos</p>
                             <p className="descricao">Melhores aplicativos</p>
-                            <a href="" className="btn-more">Ver mais</a>
+                            {/* <a href="" className="btn-more">Ver mais</a> */}
                         </div>
                     </li>
                     <li data-aos="fade-left">
@@ -43,7 +42,7 @@ const Cards = () => {
                         <div className="conteudo">
                             <p className="nome-secao">Aplicativos</p>
                             <p className="descricao">Melhores aplicativos</p>
-                            <a href="" className="btn-more">Ver mais</a>
+                            {/* <a href="" className="btn-more">Ver mais</a> */}
                         </div>
                     </li>
                     

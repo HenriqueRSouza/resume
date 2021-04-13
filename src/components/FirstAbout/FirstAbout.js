@@ -10,7 +10,7 @@ const FirstAbout = () => {
     }, []);
 
     return(
-        <div className='first-about-container'>
+        <div className='first-about-container' id="firstAbout">
             <div className='first-about' >
                 <div className='first-about-text' data-aos="fade-up">
                     <h1>Sou Henrique,</h1>
