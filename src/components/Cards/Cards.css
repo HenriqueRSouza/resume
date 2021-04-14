@@ -31,7 +31,7 @@
 	margin-top: -80px;
 }
 .conteudo{
-	display: block;
+	display: flex;
 
 	width: 100%;
 	height: 80px;
@@ -41,22 +41,38 @@
 	color: #fff;
 
 	margin-top: 220px;
+
+	text-align: center;
 }
 .conteudo p{
 	display: block;
-	width: 250px;
+	width: 100%;
 
 	color: #fff;
 
-	position: relative;
+	margin: auto;
 
-	float: left;
-	margin: 10px;
-	margin-bottom: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 
 	font-family: 'Roboto', sans-serif;
-	text-indent: 10px;
 }
+.conteudo-conteudo{
+	display: block;
+	width: 100%;
+
+	color: #fff;
+
+	margin: auto;
+
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+	font-family: 'Roboto', sans-serif;
+}
+
 .btn-more{
 	display: block;
 
