@@ -57,3 +57,39 @@
     text-align: left;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 960px){
+    .resume-container{
+        height: 140vh;
+    }
+
+    .resume-text-container{
+        width: 100%;
+        
+        display: flex;
+
+        flex-direction: column;
+        
+    
+        margin: auto auto auto auto;
+    
+        justify-content: center;
+        text-align: left;
+        align-items: flex-start;
+    }
+    .resume-text{
+        display: flex;
+
+        flex-direction: column;
+
+        margin-bottom: 100px;
+    }
+    .resume-last-text{
+        display: flex;
+
+        flex-direction: column;
+
+        margin-bottom: 40px;
+    }
+    
+}

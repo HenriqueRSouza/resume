@@ -34,3 +34,9 @@
 .works-cards #text{
     font-size: 38px;
 }
+
+@media screen and (max-width: 960px){
+    .works-container{
+        height: 100vh;
+    }
+}   

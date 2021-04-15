@@ -73,25 +73,13 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-.btn-more{
-	display: block;
-
-	text-decoration: none;
-	color: #fff;
-
-	position: relative;
-	float: right;
-
-	padding: 3px 10px;
-
-	background: #AE2341;
-	border-radius: 4px;
-
-	margin: 10px;
-}
 .nome-secao{
 	font-size: 18px;
 }
 .descricao {
 	font-size: 14px;
+}
+
+@media screen and (max-width: 960px){
+	
 }

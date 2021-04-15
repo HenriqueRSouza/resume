@@ -99,3 +99,21 @@ button{
     font-size: 20px;
     font-weight: bold;
 }
+@media screen and (max-width: 960px){
+    .input-footer{
+        width: 100%;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        margin: 30px auto 30px auto;
+    
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .input-footer button{
+        width: 80%;
+    }
+}
