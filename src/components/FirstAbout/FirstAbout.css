@@ -35,15 +35,14 @@
 }
 
 .first-about{
-
-    width: 100%;
+    width: 70%;
     margin: auto;
 
     float: left;
 
 }
 .first-about-text h1{
-    width: 40%;
+    width: 70%;
     font-size: 38px;
     display: flex;
 
@@ -60,7 +59,7 @@
 }
 .first-about-text p{
     display: flex;
-    width: 40%;
+    width: 70%;
 
     text-align: left;
 

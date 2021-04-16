@@ -1,3 +1,11 @@
+:root{
+  --primary: #F28482;
+  --secundary: #3a73c5;
+  --green: rgb(34, 161, 34);
+  --inColor: #fafafa;
+  --black: black;
+}
+
 *{
   padding: 0;
   margin: 0;
